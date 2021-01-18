@@ -45,7 +45,6 @@ The following negative effects have a 2% chance of occurring, individually at bo
 |Diamond Block  |14049     |5             |★★★        |6.0         |
 |Bedrock        |65535     |1             |★★★★       |1.0         |
 |Netherite Block|18279     |8             |★★★★       |6.75        |
-|
 |*Wood*     |59        |15            |0          |2.0         |
 |*Gold*     |32        |22            |0          |12.0        |
 |*Stone*    |131       |5             |★          |4.0         |
@@ -105,7 +104,6 @@ The following negative effects have a 2% chance of occurring, individually at bo
 |Obsidian Pickaxe   |4.0   |0.6  |2.4 |
 |Obsidian Axe       |10.0  |0.45 |4.5 |
 |Obsidian Sword     |7.0   |0.8  |5.6 |
-|
 |*(empty hand)*     |1.0   |4.0  |4.0 |
 |*Wooden Hoe*       |1.0   |1.0  |1.0 |
 |*Wooden Shovel*    |2.5   |1.0  |2.5 |
@@ -158,7 +156,7 @@ The following negative effects have a 2% chance of occurring, individually at bo
 |(Block of)ⁿ Lapis Lazuli|Stone Pickaxe|3n|3 · 9ⁿ⁻¹|
 |(Block of)ⁿ Netherite|Diamond Pickaxe|50n|1200 · 9ⁿ⁻¹|
 |(Block of)ⁿ Redstone|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|
-# Credits
+# Concepts
 ["7up cap" by butterbro](https://www.tynker.com/minecraft/items/view/slimeball/7up-cap/59bd6f8e5ae029356c8b4567)
 ["bekfast" by tbd.nintendo](https://www.tynker.com/minecraft/items/view/brick/bekfast/594005ea76f2935b5a8b45b7)
 ["burned steak..." by Joshua](https://www.tynker.com/minecraft/items/view/beef_raw/burned-steak-/58dab93d5ae0293a738b457f)
