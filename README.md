@@ -158,39 +158,75 @@ The following negative effects have a 2% chance of occurring, individually at bo
 |(Block of)ⁿ Redstone|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|
 # Concepts
 ["7up cap" by butterbro](https://www.tynker.com/minecraft/items/view/slimeball/7up-cap/59bd6f8e5ae029356c8b4567)
+
 ["bekfast" by tbd.nintendo](https://www.tynker.com/minecraft/items/view/brick/bekfast/594005ea76f2935b5a8b45b7)
+
 ["burned steak..." by Joshua](https://www.tynker.com/minecraft/items/view/beef_raw/burned-steak-/58dab93d5ae0293a738b457f)
+
 ["burnt chicken" by unknown](https://www.tynker.com/minecraft/items/view/charcoal/burnt-chicken/5841a80eb84fdc27238b456d)
+
 ["cactus juice" by Sebasti...](https://www.tynker.com/minecraft/items/view/beetroot_soup/cactus-juice/58891c4f5ae0293c708b458f)
+
 ["Cheese Burger" by bioticslaya](https://www.tynker.com/minecraft/items/view/potato_baked/cheese-burger/5a54fb9bd45ae986278b4610)
+
 ["chese" by pos20000](https://www.tynker.com/minecraft/items/view/beetroot/chese/59a8c0af1c36d159038b456e)
+
 ["cokacola cap" by butterbro](https://www.tynker.com/minecraft/items/view/string/cokacola-cap/59bd73a0949b56151c8b4567)
+
 ["Completely Black Flint" by nylan](https://www.tynker.com/minecraft/items/view/flint/completely-black-flint/59eb91bb1c36d10c258b4610)
+
 ["cook poison putao" by whatup](https://www.tynker.com/minecraft/items/view/potato_baked/cook-poison-putao/59de0e4f949b569c368b4572)
+
 ["Diamond💎 Apple" by 𝚟𝚒𝚛𝚞𝚜](https://www.tynker.com/minecraft/items/view/apple_golden/diamond-apple/59934d0e76f2935c4c8b45ac)
+
 ["Diamond Emerald Potato" by Daniel](https://www.tynker.com/minecraft/items/view/potato_baked/diamond-emerald-potato/57b66a9365e4f26d7a8b4578)
+
 ["Diamond String" by Ziggy](https://www.tynker.com/minecraft/items/view/string/diamond-string/5a0523701c36d12f798b4576)
+
 ["dirt pickaxe" by mark](https://www.tynker.com/minecraft/items/view/wood_pickaxe/dirt-pickaxe/593affdd5ae0290c5a8b4577)
+
 ["Doritos" by Legendary Gamer](https://www.tynker.com/minecraft/items/view/potato_baked/doritos/58bdad6b1c36d1af248b4582)
+
 ["dr.peper cap" by butterbro](https://www.tynker.com/minecraft/items/view/chorus_fruit_popped/dr-peper-cap/59bd77021c36d118418b457a)
+
 ["ender string" by Ethan](https://www.tynker.com/minecraft/items/view/string/ender-string/57bdffe651684ff02c8b4567)
+
 ["energy drink you can actualy drink it" by unknown](https://www.tynker.com/minecraft/items/view/bucket_milk/energy-drink-you-can-actualy-drink-it/59f0ab9f5ae029670a8b4567)
+
 ["funnel cake" by Andres](https://www.tynker.com/minecraft/items/view/hopper/funnel-cake/58f8087a76f29349468b45c1)
+
 ["gravel" by stinking dark](https://www.tynker.com/minecraft/items/view/hopper/gravel/584dda47b819da22588b456a)
+
 ["Gravel Sword" by EVERYBO...](https://www.tynker.com/minecraft/items/view/diamond_sword/gravel-sword/5a85f51e949b56da078b45a0)
+
 ["Green" by Bobo1234](https://www.tynker.com/minecraft/items/view/beef_raw/green/5a57bb4c949b5649578b4567)
+
 ["hamburger" by mckay](https://www.tynker.com/minecraft/items/view/beetroot_seeds/hamburger/59b9cefc1c36d188448b4581)
+
 ["item.leaf.name" by Douglas](https://www.tynker.com/minecraft/items/view/dye_powder_green/item-leaf-name/5727728765e4f223678b456d)
+
 ["marshmallow" by realff39](https://www.tynker.com/minecraft/items/view/porkchop_raw/marshmallow/585ebf7108702c1e4a8b456b)
+
 ["mega Nether star helmet" by TheRubySaber](https://www.tynker.com/minecraft/items/view/bone/mega-nether-star-helmet/5964cd395ae02909548b4568)
+
 ["obsidian pickaxe" by pokemongo1234](https://www.tynker.com/minecraft/items/view/gold_pickaxe/obsidian-pickaxe/59af64e65ae029e72b8b4567)
+
 ["one doller" by Kyle](https://www.tynker.com/minecraft/items/view/emerald/one-doller/5a8cbbd45ae029cd0c8b456d)
+
 ["Overcooked Potato" by Shellbe...](https://www.tynker.com/minecraft/items/view/potato_baked/overcooked-potato/57e402e551684f89758b458d)
+
 ["p09uhhbvxgfggv" by Tyeler](https://www.tynker.com/minecraft/items/view/map_empty/p09uhhbvxgfggv/597b449676f293543e8b45d3)
+
 ["patato cooked with lava" by necles](https://www.tynker.com/minecraft/items/view/potato_baked/patato-cooked-with-lava/581223caa92405c2038b4575)
+
 ["salt" by unknown](https://www.tynker.com/minecraft/items/view/gunpowder/salt/59bacdf176f293766b8b45ae)
+
 ["striiiiiiiiiiiiiiiiing" by hacker](https://www.tynker.com/minecraft/items/view/string/striiiiiiiiiiiiiiiiing/597a4cd576f293e24b8b4567)
+
 ["Sweet potato" by Christi...](https://www.tynker.com/minecraft/items/view/potato_baked/sweet-potato/59e79ac7949b56ab548b45da)
+
 ["This is not a glitch." by a dino](https://www.tynker.com/minecraft/items/view/dye_powder_white/this-is-not-a-glitch-/594c89e4949b56be528b45bf)
+
 ["very poisonus potatoe" by Avril](https://www.tynker.com/minecraft/items/view/potato_poisonous/very-poisonus-potatoe/599605111c36d1196d8b4576)
+
 ["Wet Apple" by Henry](https://www.tynker.com/minecraft/items/view/apple/wet-apple/59debec35ae029d4608b4572)
