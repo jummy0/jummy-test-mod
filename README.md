@@ -29,6 +29,7 @@ A dumb Minecraft mod. For 1.16.4.
 |Twinkie                |2     |0.5       |2.5              |-|
 |Very Poisonous Potato  |12    |7.2       |19.2             |Poison IV 0:30|
 |Wet Apple              |4     |2.4       |6.4              |-|
+
 \* The following positive effects each have a 15% chance of occurring, at level I for 30 seconds: Speed, Strength, Jump Boost, Absorption, Haste, Resistance, and Regeneration. Additionally, there is a 15% chance for 0.5 seconds of Saturation I, and a 15% chance for 0.15 seconds of Instant Health I.
 The following negative effects have a 2% chance of occurring, individually at both level I and level II for 30 seconds: Poison, Hunger, Slowness, Weakness, and Mining Fatigue.
 # Tools
