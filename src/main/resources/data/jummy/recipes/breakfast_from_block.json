@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:breakfast_block"
+		}
+	],
+	"result": {
+		"item": "jummy:breakfast",
+		"count": 4
+	}
+}

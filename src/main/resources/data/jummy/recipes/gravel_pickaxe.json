@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    " | ",
+    " | "
+  ],
+  "key": {
+    "G": {
+	  "tag": "jummy:gravel_tool_materials"
+	},
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "jummy:gravel_pickaxe"
+  }
+}

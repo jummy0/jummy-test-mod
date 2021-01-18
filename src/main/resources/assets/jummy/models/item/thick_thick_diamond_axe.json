@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "jummy:item/thick_diamond_axe"
+	}
+}

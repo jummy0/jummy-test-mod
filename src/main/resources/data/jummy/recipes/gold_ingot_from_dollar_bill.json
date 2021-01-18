@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:one_dollar_bill"
+		}
+	],
+	"result": {
+		"item": "minecraft:gold_ingot"
+	}
+}

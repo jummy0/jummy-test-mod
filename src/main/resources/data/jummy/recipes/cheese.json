@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:milk"
+		}
+	],
+	"result": {
+		"item": "jummy:cheese",
+		"count": 4
+	}
+}

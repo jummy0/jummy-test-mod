@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jummy:iron_block_2"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_block",
+    "count": 9
+  }
+}

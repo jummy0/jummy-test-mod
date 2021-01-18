@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:brick"
+		},
+		{
+			"item": "minecraft:red_dye"
+		},
+		{
+			"item": "minecraft:yellow_dye"
+		}
+	],
+	"result": {
+		"item": "jummy:breakfast"
+	}
+}

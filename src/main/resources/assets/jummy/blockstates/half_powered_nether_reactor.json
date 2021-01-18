@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "jummy:block/half_powered_nether_reactor"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#l#",
+		"lRl",
+		"#l#"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:gold_block"
+		},
+		"l": {
+			"item": "minecraft:glowstone"
+		},
+		"R": {
+			"item": "jummy:nether_reactor"
+		}
+	},
+	"result": {
+		"item": "jummy:half_powered_nether_reactor"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "gg",
+    "gg"
+  ],
+  "key": {
+    "g": {
+      "item": "jummy:gravel_bits"
+    }
+  },
+  "result": {
+    "item": "minecraft:gravel"
+  }
+}

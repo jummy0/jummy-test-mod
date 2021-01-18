@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:poisonous_potato"
+  },
+  "result": "jummy:baked_poisonous_potato",
+  "experience": 0.35,
+  "cookingtime": 200
+}

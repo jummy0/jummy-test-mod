@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "| ",
+    "| "
+  ],
+  "key": {
+    "G": {
+	  "item": "jummy:air"
+	},
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "jummy:air_hoe"
+  }
+}

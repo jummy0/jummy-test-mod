@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:basalt"
+		}
+	],
+	"result": {
+		"item": "jummy:salt",
+		"count": 4
+	}
+}

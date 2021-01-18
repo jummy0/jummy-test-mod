@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:ten_dollar_bill"
+		},
+		{
+			"item": "jummy:ten_dollar_bill"
+		},
+		{
+			"item": "jummy:ten_dollar_bill"
+		},
+		{
+			"item": "jummy:ten_dollar_bill"
+		},
+		{
+			"item": "jummy:ten_dollar_bill"
+		}
+	],
+	"result": {
+		"item": "jummy:fifty_dollar_bill"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:diamond"
+		},
+		{
+			"item": "minecraft:string"
+		}
+	],
+	"result": {
+		"item": "jummy:diamond_string"
+	}
+}

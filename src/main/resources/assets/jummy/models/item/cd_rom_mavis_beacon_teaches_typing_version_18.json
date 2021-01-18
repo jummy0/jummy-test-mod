@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "jummy:item/cd_rom_mavis_beacon_teaches_typing_version_18"
+	}
+}

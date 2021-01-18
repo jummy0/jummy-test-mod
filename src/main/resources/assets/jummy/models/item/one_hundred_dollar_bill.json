@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "jummy:item/one_hundred_dollar_bill"
+	}
+}

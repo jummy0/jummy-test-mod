@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:bowl"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		}
+	],
+	"result": {
+		"item": "jummy:cactus_juice",
+		"count": 1
+	}
+}

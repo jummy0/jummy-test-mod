@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:baked_potato"
+  },
+  "result": "jummy:overcooked_potato",
+  "experience": 0.35,
+  "cookingtime": 100
+}

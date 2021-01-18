@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "jummy:item/gamecube_game_disc_mary_kate_and_ashley_sweet_16_licensed_to_drive"
+	}
+}

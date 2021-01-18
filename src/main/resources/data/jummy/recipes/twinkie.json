@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "z3z",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+	  "item": "minecraft:wheat"
+	},
+	"z": {
+	  "item": "minecraft:sugar"
+	},
+	"3": {
+	  "item": "minecraft:egg"
+	}
+  },
+  "result": {
+    "item": "jummy:twinkie",
+	"count": 8
+  }
+}

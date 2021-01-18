@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    " | ",
+    " | "
+  ],
+  "key": {
+    "G": {
+	  "item": "jummy:air"
+	},
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "jummy:air_pickaxe"
+  }
+}

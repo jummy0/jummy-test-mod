@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "jummy:block/breakfast_block_side",
+		"up": "jummy:block/breakfast_block_top",
+		"down": "jummy:block/breakfast_block_side",
+		"north": "jummy:block/breakfast_block_side",
+		"south": "jummy:block/breakfast_block_side",
+		"east": "jummy:block/breakfast_block_side",
+		"west": "jummy:block/breakfast_block_side"
+	}
+}

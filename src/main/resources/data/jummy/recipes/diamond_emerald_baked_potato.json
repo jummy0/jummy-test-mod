@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:diamond"
+		},
+		{
+			"item": "minecraft:emerald"
+		},
+		{
+			"item": "minecraft:baked_potato"
+		}
+	],
+	"result": {
+		"item": "jummy:diamond_emerald_baked_potato"
+	}
+}

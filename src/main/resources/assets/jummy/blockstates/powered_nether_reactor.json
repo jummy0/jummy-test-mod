@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "jummy:block/powered_nether_reactor"
+		}
+	}
+}

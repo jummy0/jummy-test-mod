@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jummy:netherite_block_2"
+    }
+  },
+  "result": {
+    "item": "jummy:netherite_block_3"
+  }
+}

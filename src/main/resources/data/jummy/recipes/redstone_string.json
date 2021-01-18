@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:redstone"
+		},
+		{
+			"item": "minecraft:string"
+		}
+	],
+	"result": {
+		"item": "jummy:redstone_string"
+	}
+}

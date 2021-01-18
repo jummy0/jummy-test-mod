@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p p",
+	"p p",
+	"ppp"
+  ],
+  "key": {
+    "p": {
+	  "item": "jummy:plastic"
+	}
+  },
+  "result": {
+    "item": "jummy:shades"
+  }
+}

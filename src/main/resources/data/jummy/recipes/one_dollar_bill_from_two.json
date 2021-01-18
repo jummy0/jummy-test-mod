@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:two_dollar_bill"
+		}
+	],
+	"result": {
+		"item": "jummy:one_dollar_bill",
+		"count": 2
+	}
+}

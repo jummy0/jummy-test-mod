@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RS"
+  ],
+  "key": {
+    "S": {
+	  "item": "jummy:plastic"
+	},
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "jummy:dr_pepper_cap"
+  }
+}

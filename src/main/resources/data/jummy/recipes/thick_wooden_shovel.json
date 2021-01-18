@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "|",
+    "|"
+  ],
+  "key": {
+    "G": {
+	  "tag": "minecraft:logs"
+	},
+    "|": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "jummy:thick_wooden_shovel"
+  }
+}

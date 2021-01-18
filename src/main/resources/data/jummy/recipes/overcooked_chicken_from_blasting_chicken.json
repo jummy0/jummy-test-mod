@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:chicken"
+  },
+  "result": "jummy:overcooked_chicken",
+  "experience": 0.35,
+  "cookingtime": 100
+}

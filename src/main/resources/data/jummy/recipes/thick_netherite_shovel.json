@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "|",
+    "|"
+  ],
+  "key": {
+    "G": {
+	  "item": "minecraft:netherite_block"
+	},
+    "|": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "jummy:thick_netherite_shovel"
+  }
+}

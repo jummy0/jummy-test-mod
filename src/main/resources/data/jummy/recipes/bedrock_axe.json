@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "|G",
+    "| "
+  ],
+  "key": {
+    "G": {
+	  "item": "minecraft:bedrock"
+	},
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "jummy:bedrock_axe"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "jummy:sweet_potato"
+  },
+  "result": "jummy:baked_sweet_potato",
+  "experience": 0.35,
+  "cookingtime": 200
+}

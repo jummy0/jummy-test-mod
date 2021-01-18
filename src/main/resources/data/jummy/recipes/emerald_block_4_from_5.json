@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jummy:emerald_block_5"
+    }
+  ],
+  "result": {
+    "item": "jummy:emerald_block_4",
+    "count": 9
+  }
+}

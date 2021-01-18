@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "G",
+    "|"
+  ],
+  "key": {
+    "G": {
+	  "item": "minecraft:diamond_block"
+	},
+    "|": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "jummy:thick_diamond_sword"
+  }
+}

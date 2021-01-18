@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:water"
+		},
+		{
+			"item": "minecraft:bucket"
+		}
+	],
+	"result": {
+		"item": "minecraft:water_bucket"
+	}
+}

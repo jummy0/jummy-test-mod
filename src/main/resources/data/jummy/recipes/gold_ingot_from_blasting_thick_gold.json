@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "jummy:thick_golden_pickaxe"
+    },
+    {
+      "item": "jummy:thick_golden_shovel"
+    },
+    {
+      "item": "jummy:thick_golden_axe"
+    },
+    {
+      "item": "jummy:thick_golden_hoe"
+    },
+    {
+      "item": "jummy:thick_golden_sword"
+    }
+  ],
+  "result": "minecraft:gold_ingot",
+  "experience": 0.45,
+  "cookingtime": 100
+}
