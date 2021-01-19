@@ -211,14 +211,14 @@ public class CustomBlocks {
 			.breakByTool(FabricToolTags.PICKAXES, 3) // diamond
 			.sounds(BlockSoundGroup.NETHERITE)
 			.requiresTool()
-			.strength(200.0f, 874800.0f)
+			.strength(200.0f, 874_800.0f)
 			);
 	public static final Block NETHERITE_BLOCK_5 = new Block(FabricBlockSettings
 			.of(Material.METAL, MaterialColor.BLACK)
 			.breakByTool(FabricToolTags.PICKAXES, 3) // diamond
 			.sounds(BlockSoundGroup.NETHERITE)
 			.requiresTool()
-			.strength(250.0f, 7873200.0f)
+			.strength(250.0f, 7_873_200.0f)
 			);
 	public static final Block LAPIS_BLOCK_2 = new Block(FabricBlockSettings
 			.of(Material.METAL, MaterialColor.LAPIS)

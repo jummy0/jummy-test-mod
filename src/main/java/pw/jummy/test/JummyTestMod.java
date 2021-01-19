@@ -2,6 +2,7 @@ package pw.jummy.test;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
@@ -228,6 +229,21 @@ public class JummyTestMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("jummy", "nether_star_chestplate"), CustomItems.NETHER_STAR_CHESTPLATE);
 		Registry.register(Registry.ITEM, new Identifier("jummy", "nether_star_leggings"), CustomItems.NETHER_STAR_LEGGINGS);
 		Registry.register(Registry.ITEM, new Identifier("jummy", "nether_star_boots"), CustomItems.NETHER_STAR_BOOTS);
+		
+		// fuels
+		
+		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_2, 160_000); // 800 items (2 hours)
+		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_3, 1_600_000); // 8000 items (22 hours)
+		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_4, 16_000_000); // 80000 items (9 days)
+		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_5, 160_000_000); // 800 000 items (92 days)
+		FuelRegistry.INSTANCE.add(CustomItems.COAL_NUGGET, 160); // 0.8 items
+		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_AXE, 400); // 2 items
+		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_HOE, 400); // 2 items
+		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_PICKAXE, 400); // 2 items
+		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_SHOVEL, 400); // 2 items
+		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_SWORD, 400); // 2 items
+		FuelRegistry.INSTANCE.add(CustomBlocks.POWERED_NETHER_REACTOR, 16_777_215); // 83886.075 items (9 days)
+		FuelRegistry.INSTANCE.add(CustomItems.THIS_IS_NOT_A_GLITCH, 199); // 0.995 items
 		
 		// :^)
 		

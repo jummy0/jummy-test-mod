@@ -311,6 +311,21 @@ public class CustomItems {
 					.build()
 					)
 			);
+	public static final Item COAL_NUGGET = new Item(new FabricItemSettings()
+			.group(ItemGroup.MISC)
+			);
+	public static final Item PLASTIC_NUGGET = new Item(new FabricItemSettings()
+			.group(ItemGroup.MISC)
+			);
+	public static final Item DIAMOND_NUGGET = new Item(new FabricItemSettings()
+			.group(ItemGroup.MISC)
+			);
+	public static final Item EMERALD_NUGGET = new Item(new FabricItemSettings()
+			.group(ItemGroup.MISC)
+			);
+	public static final Item LAPIS_NUGGET = new Item(new FabricItemSettings()
+			.group(ItemGroup.MISC)
+			);
 	
 	public static final ToolItem GRAVEL_SWORD = new SwordItem(
 			GravelToolMaterial.INSTANCE,

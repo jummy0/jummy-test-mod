@@ -137,26 +137,103 @@ The following negative effects have a 2% chance of occurring, individually at bo
 ||*Netherite Axe*|10.0|1.0|10.0|
 ||*Netherite Sword*|8.0|1.6|12.8|
 # Blocks
-|Icon|Item|Tool|Hardness|Blast resistance|
-|-|-|-|-|-|
-|![](src/main/resources/assets/jummy/textures/item/7up_cap.png)|7UP® Cap|Any|0|0|
-|![](src/main/resources/assets/jummy/textures/block/milk_block.png)|Block of Milk|Any|1|1|
-|![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png)|Breakfast Block|Pickaxe|2|6|
-|![](src/main/resources/assets/jummy/textures/item/coca_cola_cap.png)|Coca-Cola® Cap|Any|0|0|
-|![](src/main/resources/assets/jummy/textures/item/dr_pepper_cap.png)|Dr. Pepper® Cap|Any|0|0|
-|![](src/main/resources/assets/jummy/textures/item/funnel_cake.png)|Funnel Cake|Pickaxe|3|4.8|
-|![](src/main/resources/assets/jummy/textures/item/green.png)|Green|Any|0|0|
-|![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png)|Half Powered Nether Reactor|Diamond Pickaxe|5|1200|
-|![](src/main/resources/assets/jummy/textures/block/nether_reactor.png)|Nether Reactor|Diamond Pickaxe|5|1200|
-|![](src/main/resources/assets/jummy/textures/block/powered_nether_reactor.png)|Powered Nether Reactor|Diamond Pickaxe|5|1200|
-|![](src/main/resources/assets/jummy/textures/block/coal_block_2.png)|(Block of)ⁿ Coal|Pickaxe|5n|6 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/diamond_block_2.png)|(Block of)ⁿ Diamond|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/emerald_block_2.png)|(Block of)ⁿ Emerald|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/gold_block_2.png)|(Block of)ⁿ Gold|Iron Pickaxe|3n|6 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/iron_block_2.png)|(Block of)ⁿ Iron|Stone Pickaxe|5n|6 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/lapis_block_2.png)|(Block of)ⁿ Lapis Lazuli|Stone Pickaxe|3n|3 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/netherite_block_2.png)|(Block of)ⁿ Netherite|Diamond Pickaxe|50n|1200 · 9ⁿ⁻¹|
-|![](src/main/resources/assets/jummy/textures/block/redstone_block_2.png)|(Block of)ⁿ Redstone|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|
+|Icon|Item|Tool|Hardness|Blast resistance|Drops|
+|-|-|-|-|-|-|
+|![](src/main/resources/assets/jummy/textures/item/7up_cap.png)|7UP® Cap|Any|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/milk_block.png)|Block of Milk|Any|1|1|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png)|Breakfast Block|Pickaxe|2|6|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/coca_cola_cap.png)|Coca-Cola® Cap|Any|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/dr_pepper_cap.png)|Dr. Pepper® Cap|Any|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/funnel_cake.png)|Funnel Cake|Pickaxe|3|4.8|Cake + Hopper|
+|![](src/main/resources/assets/jummy/textures/item/green.png)|Green|Any|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png)|Half Powered Nether Reactor|Diamond Pickaxe|5|1200|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/nether_reactor.png)|Nether Reactor|Diamond Pickaxe|5|1200|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/powered_nether_reactor.png)|Powered Nether Reactor|Diamond Pickaxe|5|1200|*Random Nether items*
+|![](src/main/resources/assets/jummy/textures/block/coal_block_2.png)|(Block of)ⁿ Coal|Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/diamond_block_2.png)|(Block of)ⁿ Diamond|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/emerald_block_2.png)|(Block of)ⁿ Emerald|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/gold_block_2.png)|(Block of)ⁿ Gold|Iron Pickaxe|3n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/iron_block_2.png)|(Block of)ⁿ Iron|Stone Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/lapis_block_2.png)|(Block of)ⁿ Lapis Lazuli|Stone Pickaxe|3n|3 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/netherite_block_2.png)|(Block of)ⁿ Netherite|Diamond Pickaxe|50n|1200 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/redstone_block_2.png)|(Block of)ⁿ Redstone|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
+# Recipes
+## Plastic
+4× Sugar Cane → 4× ![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic<br>
+`s` `s`<br>
+`s` `s`
+
+7× ![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic → ![](src/main/resources/assets/jummy/textures/item/shades.png) Shades<br>
+`p` `·` `p`<br>
+`p` `·` `p`<br>
+`p` `p` `p`
+
+![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic + Red Dye → ![](src/main/resources/assets/jummy/textures/item/7up_cap.png) 7UP® Cap<br>
+`r` `·`<br>
+`p` `·`
+
+![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic + Red Dye → ![](src/main/resources/assets/jummy/textures/item/coca_cola_cap.png) Coca-Cola® Cap<br>
+`p` `·`<br>
+`r` `·`
+
+![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic + Red Dye → ![](src/main/resources/assets/jummy/textures/item/dr_pepper_cap.png) Dr. Pepper® Cap<br>
+`·` `·`<br>
+`r` `p`
+## Dollar Bills
+Gold Ingot + Paper → ![](src/main/resources/assets/jummy/textures/item/one_dollar_bill.png) One Dollar Bill
+
+![](src/main/resources/assets/jummy/textures/item/one_dollar_bill.png) One Dollar Bill → Gold Ingot
+
+5× ![](src/main/resources/assets/jummy/textures/item/one_dollar_bill.png) One Dollar Bill ⇄ ![](src/main/resources/assets/jummy/textures/item/five_dollar_bill.png) Five Dollar Bill
+
+2× ![](src/main/resources/assets/jummy/textures/item/five_dollar_bill.png) Five Dollar Bill ⇄ ![](src/main/resources/assets/jummy/textures/item/ten_dollar_bill.png) Ten Dollar Bill
+
+\* *This pattern continues up to a ![](src/main/resources/assets/jummy/textures/item/one_hundred_dollar_bill.png) One Hundred Dollar Bill. Consecutive denominations can be combined to reach the next. For example:*
+
+2× ![](src/main/resources/assets/jummy/textures/item/twenty_dollar_bill.png) Twenty Dollar Bill + ![](src/main/resources/assets/jummy/textures/item/ten_dollar_bill.png) Ten Dollar Bill → ![](src/main/resources/assets/jummy/textures/item/fifty_dollar_bill.png) Fifty Dollar Bill
+
+## Nether Reactor
+3× Netherite Ingot + 6× Obsidian  → ![](src/main/resources/assets/jummy/textures/block/nether_reactor.png) Nether Reactor<br>
+`O` `n` `O`<br>
+`O` `n` `O`<br>
+`O` `n` `O`
+
+![](src/main/resources/assets/jummy/textures/block/nether_reactor.png) Nether Reactor + 4× Block of Gold + 4× Glowstone Block → ![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png) Half Powered Nether Reactor<br>
+`G` `L` `G`<br>
+`L` `N` `L`<br>
+`G` `L` `G`<br>
+****G**** = Block of Gold<br>
+****L**** = Glowstone Block<br>
+****N**** = ![](src/main/resources/assets/jummy/textures/block/nether_reactor.png) Nether Reactor
+
+![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png) Half Powered Nether Reactor + 4× Block of Gold + 4× Glowstone Block → ![](src/main/resources/assets/jummy/textures/block/powered_nether_reactor.png) Powered Nether Reactor<br>
+`G` `L` `G`<br>
+`L` `H` `L`<br>
+`G` `L` `G`<br>
+****G**** = Block of Gold<br>
+****L**** = Glowstone Block<br>
+****H**** = ![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png) Half Powered Nether Reactor
+## (Block of)ⁿ Ore
+9× Block of Coal ⇄ ![](src/main/resources/assets/jummy/textures/block/coal_block_2.png) (Block of)² Coal
+
+\* *This pattern applies to all compressed ore blocks.  Following the same pattern, the Block² can be combined into Block³ and so on, up to an exponent of 5.*
+## Other
+9× Green Dye ⇄ ![](src/main/resources/assets/jummy/textures/item/green.png) Green
+
+Brick + Red Dye + Yellow Dye → ![](src/main/resources/assets/jummy/textures/item/breakfast.png) Breakfast
+
+4× ![](src/main/resources/assets/jummy/textures/item/breakfast.png) Breakfast ⇄ ![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png) Breakfast Block<br>
+`b` `b`<br>
+`b` `b`
+
+Cake + Hopper → ![](src/main/resources/assets/jummy/textures/item/funnel_cake.png) Funnel Cake
+
+Milk Bucket → ![](src/main/resources/assets/jummy/textures/item/milk.png) Milk + Bucket
+
+![](src/main/resources/assets/jummy/textures/item/milk.png) Milk → 4× ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese
+
+9× ![](src/main/resources/assets/jummy/textures/item/milk.png) Milk ⇄ ![](src/main/resources/assets/jummy/textures/block/milk_block.png) Block of Milk
+
 # Concepts
 ["7up cap" by butterbro](https://www.tynker.com/minecraft/items/view/slimeball/7up-cap/59bd6f8e5ae029356c8b4567)
 
