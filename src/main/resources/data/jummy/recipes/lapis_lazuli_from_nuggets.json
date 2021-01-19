@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+	  "item": "jummy:lapis_nugget"
+	}
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli"
+  }
+}

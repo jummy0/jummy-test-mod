@@ -1,9 +1,7 @@
 package pw.jummy.test.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -17,8 +15,6 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolItem;
 
 public class CustomItems {
-	public static final CustomItems INSTANCE = new CustomItems();
-	
 	public static final Item GRAVEL_BITS = new Item(new FabricItemSettings()
 			.group(ItemGroup.MISC)
 			.food(new FoodComponent.Builder()
@@ -242,6 +238,7 @@ public class CustomItems {
 			.food(new FoodComponent.Builder()
 					.hunger(1)
 					.saturationModifier(0.2f)
+					.snack()
 					.build()
 					)
 			);
@@ -271,7 +268,7 @@ public class CustomItems {
 			.group(ItemGroup.MISC)
 			);
 	public static final Item PLASTIC = new Item(new FabricItemSettings()
-			.group(ItemGroup.FOOD)
+			.group(ItemGroup.MISC)
 			.food(new FoodComponent.Builder()
 					.hunger(0)
 					.alwaysEdible()
@@ -316,6 +313,15 @@ public class CustomItems {
 			);
 	public static final Item PLASTIC_NUGGET = new Item(new FabricItemSettings()
 			.group(ItemGroup.MISC)
+			.group(ItemGroup.FOOD)
+			.food(new FoodComponent.Builder()
+					.hunger(0)
+					.alwaysEdible()
+					.saturationModifier(1f)
+					.statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 10 * 20, 0), 0.025f)
+					.build()
+					)
+			);
 			);
 	public static final Item DIAMOND_NUGGET = new Item(new FabricItemSettings()
 			.group(ItemGroup.MISC)

@@ -9,8 +9,6 @@ import net.minecraft.block.RedstoneBlock;
 import net.minecraft.sound.BlockSoundGroup;
 
 public class CustomBlocks {
-	public static final CustomBlocks INSTANCE = new CustomBlocks();
-	
 	public static final Block FUNNEL_CAKE = new Block(FabricBlockSettings
 			.of(Material.METAL, MaterialColor.GRAY)
 			.nonOpaque()

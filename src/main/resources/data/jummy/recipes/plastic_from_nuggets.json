@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+	  "item": "jummy:plastic_nugget"
+	}
+  },
+  "result": {
+    "item": "jummy:plastic"
+  }
+}

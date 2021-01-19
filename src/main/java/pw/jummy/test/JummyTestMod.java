@@ -3,7 +3,6 @@ package pw.jummy.test;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -158,6 +157,11 @@ public class JummyTestMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("jummy", "ps3_blu_ray_disc_sonic_the_hedgehog"), new MiscDescItem());
 		Registry.register(Registry.ITEM, new Identifier("jummy", "twinkie"), CustomItems.TWINKIE);
 		Registry.register(Registry.ITEM, new Identifier("jummy", "apple_pie"), CustomItems.APPLE_PIE);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "coal_nugget"), CustomItems.COAL_NUGGET);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "plastic_nugget"), CustomItems.PLASTIC_NUGGET);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "diamond_nugget"), CustomItems.DIAMOND_NUGGET);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "emerald_nugget"), CustomItems.EMERALD_NUGGET);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "lapis_nugget"), CustomItems.LAPIS_NUGGET);
 		
 		// tools
 		
@@ -230,26 +234,21 @@ public class JummyTestMod implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("jummy", "nether_star_leggings"), CustomItems.NETHER_STAR_LEGGINGS);
 		Registry.register(Registry.ITEM, new Identifier("jummy", "nether_star_boots"), CustomItems.NETHER_STAR_BOOTS);
 		
+		// :^)
+		
+		Registry.register(Registry.ITEM, new Identifier("jummy", "water"), CustomItems.WATER);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "lava"), CustomItems.LAVA);
+		Registry.register(Registry.ITEM, new Identifier("jummy", "air"), CustomItems.AIR);
+		
 		// fuels
 		
-		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_2, 160_000); // 800 items (2 hours)
-		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_3, 1_600_000); // 8000 items (22 hours)
-		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_4, 16_000_000); // 80000 items (9 days)
-		FuelRegistry.INSTANCE.add(CustomBlocks.COAL_BLOCK_5, 160_000_000); // 800 000 items (92 days)
 		FuelRegistry.INSTANCE.add(CustomItems.COAL_NUGGET, 160); // 0.8 items
 		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_AXE, 400); // 2 items
 		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_HOE, 400); // 2 items
 		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_PICKAXE, 400); // 2 items
 		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_SHOVEL, 400); // 2 items
 		FuelRegistry.INSTANCE.add(CustomItems.THICK_WOODEN_SWORD, 400); // 2 items
-		FuelRegistry.INSTANCE.add(CustomBlocks.POWERED_NETHER_REACTOR, 16_777_215); // 83886.075 items (9 days)
 		FuelRegistry.INSTANCE.add(CustomItems.THIS_IS_NOT_A_GLITCH, 199); // 0.995 items
-		
-		// :^)
-		
-		Registry.register(Registry.ITEM, new Identifier("jummy", "water"), CustomItems.WATER);
-		Registry.register(Registry.ITEM, new Identifier("jummy", "lava"), CustomItems.LAVA);
-		Registry.register(Registry.ITEM, new Identifier("jummy", "air"), CustomItems.AIR);
 	}
 	
 }
