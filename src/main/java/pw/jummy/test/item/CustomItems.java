@@ -322,7 +322,6 @@ public class CustomItems {
 					.build()
 					)
 			);
-			);
 	public static final Item DIAMOND_NUGGET = new Item(new FabricItemSettings()
 			.group(ItemGroup.MISC)
 			);
