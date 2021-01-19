@@ -1,5 +1,5 @@
 # jummy-test-mod
-A dumb Minecraft mod. For 1.16.4.
+A bad Minecraft mod. For 1.16.4.
 # Food
 |Icon|Item|Hunger|Saturation|Effective quality|Effects|
 |-|-|-|-|-|-|
