@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "jummy:block/golden_apple_block_side",
+		"up": "jummy:block/golden_apple_block_top",
+		"down": "jummy:block/golden_apple_block_bottom",
+		"north": "jummy:block/golden_apple_block_side",
+		"south": "jummy:block/golden_apple_block_side",
+		"east": "jummy:block/golden_apple_block_side",
+		"west": "jummy:block/golden_apple_block_side"
+	}
+}

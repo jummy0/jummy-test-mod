@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jummy:weathered_copper_4"
+    }
+  },
+  "result": {
+    "item": "jummy:weathered_copper_5"
+  }
+}

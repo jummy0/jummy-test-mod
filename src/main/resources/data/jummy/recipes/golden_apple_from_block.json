@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jummy:golden_apple_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 9
+  }
+}

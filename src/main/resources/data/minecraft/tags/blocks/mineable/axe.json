@@ -1,0 +1,15 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:apple_block",
+		"jummy:beetroot_block",
+		"jummy:carrot_block",
+		"jummy:enchanted_golden_apple_block",
+		"jummy:glistering_melon_block",
+		"jummy:golden_apple_block",
+		"jummy:golden_carrot_block",
+		"jummy:poisonous_potato_block",
+		"jummy:potato_block",
+		"jummy:stick_block"
+	]
+}

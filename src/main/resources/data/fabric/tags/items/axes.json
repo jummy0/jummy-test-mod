@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:air_axe",
+		"jummy:bedrock_axe",
+		"jummy:dirt_axe",
+		"jummy:end_stone_axe",
+		"jummy:gravel_axe",
+		"jummy:obsidian_axe",
+		"jummy:thick_copper_axe",
+		"jummy:thick_diamond_axe",
+		"jummy:thick_golden_axe",
+		"jummy:thick_iron_axe",
+		"jummy:thick_netherite_axe",
+		"jummy:thick_wooden_axe"
+	]
+}

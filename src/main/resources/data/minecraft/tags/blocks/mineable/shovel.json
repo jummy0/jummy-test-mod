@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:cheese_block",
+		"jummy:rotten_flesh_block",
+		"jummy:secret_cheese_block"
+	]
+}

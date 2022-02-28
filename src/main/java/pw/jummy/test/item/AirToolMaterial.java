@@ -1,5 +1,6 @@
 package pw.jummy.test.item;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -8,7 +9,7 @@ public class AirToolMaterial implements ToolMaterial {
 	
 	@Override
 	public int getMiningLevel() {
-		return 0;
+		return MiningLevels.WOOD;
 	}
 	
 	@Override

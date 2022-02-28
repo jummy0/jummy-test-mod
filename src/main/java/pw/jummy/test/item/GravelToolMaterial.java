@@ -1,5 +1,6 @@
 package pw.jummy.test.item;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -9,7 +10,7 @@ public class GravelToolMaterial implements ToolMaterial {
 	
 	@Override
 	public int getMiningLevel() {
-		return 1;
+		return MiningLevels.STONE;
 	}
 	
 	@Override

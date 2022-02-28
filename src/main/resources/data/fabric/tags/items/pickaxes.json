@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:air_pickaxe",
+		"jummy:bedrock_pickaxe",
+		"jummy:dirt_pickaxe",
+		"jummy:end_stone_pickaxe",
+		"jummy:gravel_pickaxe",
+		"jummy:obsidian_pickaxe",
+		"jummy:thick_copper_pickaxe",
+		"jummy:thick_diamond_pickaxe",
+		"jummy:thick_golden_pickaxe",
+		"jummy:thick_iron_pickaxe",
+		"jummy:thick_netherite_pickaxe",
+		"jummy:thick_wooden_pickaxe"
+	]
+}

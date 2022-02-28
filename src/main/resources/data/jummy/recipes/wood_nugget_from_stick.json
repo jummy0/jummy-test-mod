@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:stick"
+		}
+	],
+	"result": {
+		"item": "jummy:wood_nugget",
+		"count": 9
+	}
+}

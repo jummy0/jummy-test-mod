@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:string"
+		},
+		{
+			"item": "jummy:cheese"
+		}
+	],
+	"result": {
+		"item": "jummy:string_cheese"
+	}
+}

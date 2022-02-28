@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jummy:weathered_copper_4"
+    }
+  ],
+  "result": {
+    "item": "jummy:weathered_copper_3",
+    "count": 9
+  }
+}

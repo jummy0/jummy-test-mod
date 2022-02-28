@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GG",
+    "| ",
+    "| "
+  ],
+  "key": {
+    "G": {
+	  "item": "minecraft:copper_block"
+	},
+    "|": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "jummy:thick_copper_hoe"
+  }
+}

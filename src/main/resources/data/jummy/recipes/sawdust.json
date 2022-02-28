@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "jummy:wood_nugget"
+		}
+	],
+	"result": {
+		"item": "jummy:sawdust",
+		"count": 9
+	}
+}

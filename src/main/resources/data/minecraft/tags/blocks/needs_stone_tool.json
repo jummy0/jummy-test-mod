@@ -1,0 +1,33 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:coal_block_2",
+		"jummy:coal_block_3",
+		"jummy:coal_block_4",
+		"jummy:coal_block_5",
+		"jummy:iron_block_2",
+		"jummy:iron_block_3",
+		"jummy:iron_block_4",
+		"jummy:iron_block_5",
+		"jummy:lapis_block_2",
+		"jummy:lapis_block_3",
+		"jummy:lapis_block_4",
+		"jummy:lapis_block_5",
+		"jummy:copper_block_2",
+		"jummy:copper_block_3",
+		"jummy:copper_block_4",
+		"jummy:copper_block_5",
+		"jummy:exposed_copper_2",
+		"jummy:exposed_copper_3",
+		"jummy:exposed_copper_4",
+		"jummy:exposed_copper_5",
+		"jummy:weathered_copper_2",
+		"jummy:weathered_copper_3",
+		"jummy:weathered_copper_4",
+		"jummy:weathered_copper_5",
+		"jummy:oxidized_copper_2",
+		"jummy:oxidized_copper_3",
+		"jummy:oxidized_copper_4",
+		"jummy:oxidized_copper_5"
+	]
+}

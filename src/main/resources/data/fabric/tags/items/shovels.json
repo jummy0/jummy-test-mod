@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:air_shovel",
+		"jummy:bedrock_shovel",
+		"jummy:dirt_shovel",
+		"jummy:end_stone_shovel",
+		"jummy:gravel_shovel",
+		"jummy:obsidian_shovel",
+		"jummy:thick_copper_shovel",
+		"jummy:thick_diamond_shovel",
+		"jummy:thick_golden_shovel",
+		"jummy:thick_iron_shovel",
+		"jummy:thick_netherite_shovel",
+		"jummy:thick_wooden_shovel"
+	]
+}

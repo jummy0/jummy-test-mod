@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:air_hoe",
+		"jummy:bedrock_hoe",
+		"jummy:dirt_hoe",
+		"jummy:end_stone_hoe",
+		"jummy:gravel_hoe",
+		"jummy:obsidian_hoe",
+		"jummy:thick_copper_hoe",
+		"jummy:thick_diamond_hoe",
+		"jummy:thick_golden_hoe",
+		"jummy:thick_iron_hoe",
+		"jummy:thick_netherite_hoe",
+		"jummy:thick_wooden_hoe"
+	]
+}

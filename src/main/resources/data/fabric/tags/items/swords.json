@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:air_sword",
+		"jummy:bedrock_sword",
+		"jummy:dirt_sword",
+		"jummy:end_stone_sword",
+		"jummy:gravel_sword",
+		"jummy:obsidian_sword",
+		"jummy:thick_copper_sword",
+		"jummy:thick_diamond_sword",
+		"jummy:thick_golden_sword",
+		"jummy:thick_iron_sword",
+		"jummy:thick_netherite_sword",
+		"jummy:thick_wooden_sword"
+	]
+}

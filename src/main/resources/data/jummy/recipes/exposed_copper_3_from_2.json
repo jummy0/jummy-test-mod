@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jummy:exposed_copper_2"
+    }
+  },
+  "result": {
+    "item": "jummy:exposed_copper_3"
+  }
+}

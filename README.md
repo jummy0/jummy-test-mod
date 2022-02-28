@@ -1,20 +1,22 @@
 # jummy-test-mod
-A bad Minecraft mod. For 1.17.
+A bad Minecraft mod. For 1.18.1.
 # Food
 |Icon|Item|Hunger|Saturation|Effective quality|Effects|
 |-|-|-|-|-|-|
 |![](src/main/resources/assets/jummy/textures/item/apple_pie.png)|Apple Pie|6|4.5|10.5|-|
 |![](src/main/resources/assets/jummy/textures/item/baked_poisonous_potato.png)|Baked Poisonous Potato|7|4.2|11.2|Poison I 0:30 (60%)|
 |![](src/main/resources/assets/jummy/textures/item/baked_sweet_potato.png)|Baked Sweet Potato|6|6|12|-|
+|![](src/main/resources/assets/jummy/textures/item/blue_cheese.png)|Blue Cheese|1|0.5|1.5|-|
 |![](src/main/resources/assets/jummy/textures/item/breakfast.png)|Breakfast|3|3|6|-|
 |![](src/main/resources/assets/jummy/textures/item/cactus_juice.png)|Cactus Juice|2|4|6|-|
 |![](src/main/resources/assets/jummy/textures/item/cheese.png)|Cheese|1|0.2|1.2|-|
 |![](src/main/resources/assets/jummy/textures/item/cheeseburger.png)|Cheeseburger|14|21|35|-|
-|![](src/main/resources/assets/jummy/textures/item/diamond_apple.png)|Diamond Apple|4|8|12|Regeneration III 0:05<br>Absorption II 2:00|
+|![](src/main/resources/assets/jummy/textures/item/cheese_stick.png)|Cheese Stick|1|0.4|1.4|-|
+|![](src/main/resources/assets/jummy/textures/item/diamond_apple.png)|Diamond Apple|4|8|12|Regeneration III 0:05,<br>Absorption II 2:00|
 |![](src/main/resources/assets/jummy/textures/item/diamond_emerald_baked_potato.png)|Diamond Emerald Baked Potato|5|6|11|Regeneration I 0:05|
-|![](src/main/resources/assets/jummy/textures/item/doritos.png)|Doritos®|5|5|10|-|
-|![](src/main/resources/assets/jummy/textures/item/energy_drink.png)|Energy Drink|1|2|3|*Various*\*|
-|![](src/main/resources/assets/jummy/textures/item/gravel_bits.png)|Gravel Bits|1|0|1|Hunger XX 0:01<br>Poison II 0:01 (10%)|
+|![](src/main/resources/assets/jummy/textures/item/doritos.png)|Doritos®|5|5|10|*Turns into Doritos® Dust*|
+|![](src/main/resources/assets/jummy/textures/item/energy_drink.png)|Energy Drink|1|2|3|*Random status effects*|
+|![](src/main/resources/assets/jummy/textures/item/gravel_bits.png)|Gravel Bits|1|0|1|Hunger XX 0:01.5,<br>Poison II 0:01 (12.5%)|
 |![](src/main/resources/assets/jummy/textures/item/hamburger.png)|Hamburger|13|20.5|33.5|-|
 |![](src/main/resources/assets/jummy/textures/item/lava_baked_potato.png)|Lava Baked Potato|5|5|10|-|
 |![](src/main/resources/assets/jummy/textures/item/leaf.png)|Leaf|1|0|1|-|
@@ -23,6 +25,7 @@ A bad Minecraft mod. For 1.17.
 |![](src/main/resources/assets/jummy/textures/item/overcooked_potato.png)|Overcooked Potato|5|0|5|-|
 |![](src/main/resources/assets/jummy/textures/item/overcooked_beef.png)|Overcooked Steak|7|0|7|-|
 |![](src/main/resources/assets/jummy/textures/item/plastic.png)|Plastic|0|0|0|Hunger I 0:10 (20%)|
+|![](src/main/resources/assets/jummy/textures/item/string_cheese.png)|String Cheese|1|0.6|1.6|-|
 |![](src/main/resources/assets/jummy/textures/item/baked_sweet_potato.png)|Sweet Baked Potato|6|6|12|-|
 |![](src/main/resources/assets/jummy/textures/item/sweet_potato.png)|Sweet Potato|1|0.8|1.8|-|
 |![](src/main/resources/assets/jummy/textures/item/this_is_not_a_glitch.png)|This is not a glitch.|0|0|0|-|
@@ -30,134 +33,107 @@ A bad Minecraft mod. For 1.17.
 |![](src/main/resources/assets/jummy/textures/item/very_poisonous_potato.png)|Very Poisonous Potato|12|7.2|19.2|Poison IV 0:30|
 |![](src/main/resources/assets/jummy/textures/item/wet_apple.png)|Wet Apple|4|2.4|6.4|-|
 
-\* The following positive effects each have a 15% chance of occurring, at level I for 30 seconds: Speed, Strength, Jump Boost, Absorption, Haste, Resistance, and Regeneration. Additionally, there is a 15% chance for 0.5 seconds of Saturation I, and a 15% chance for 0.15 seconds of Instant Health I.
-The following negative effects have a 2% chance of occurring, individually at both level I and level II for 30 seconds: Poison, Hunger, Slowness, Weakness, and Mining Fatigue.
 # Tools
 ## Overview
 |Icon|Material|Durability|Enchantability|Mining tier|Mining speed|
 |-|-|-|-|-|-|
-|![](src/main/resources/assets/jummy/textures/item/air_pickaxe.png)|Air|6|1|0|1.0|
-|![](src/main/resources/assets/jummy/textures/item/dirt_pickaxe.png)|Dirt|25|32|0|1.4|
-|![](src/main/resources/assets/jummy/textures/item/thick_wooden_pickaxe.png)|Log|236|8|0|1.5|
-|![](src/main/resources/assets/jummy/textures/item/thick_golden_pickaxe.png)|Gold Block|288|11|0|9.0|
-|![](src/main/resources/assets/jummy/textures/item/gravel_pickaxe.png)|Gravel|59|10|★|3.0|
-|![](src/main/resources/assets/jummy/textures/item/obsidian_pickaxe.png)|Obsidian|3592|5|★|6.0|
-|![](src/main/resources/assets/jummy/textures/item/thick_iron_pickaxe.png)|Iron Block|2250|7|★★|4.5|
-|![](src/main/resources/assets/jummy/textures/item/thick_diamond_pickaxe.png)|Diamond Block|14049|5|★★★|6.0|
-|![](src/main/resources/assets/jummy/textures/item/bedrock_pickaxe.png)|Bedrock|65535|1|★★★★|1.0|
-|![](src/main/resources/assets/jummy/textures/item/thick_netherite_pickaxe.png)|Netherite Block|18279|8|★★★★|6.75|
-||*Wood*|59|15|0|2.0|
-||*Gold*|32|22|0|12.0|
-||*Stone*|131|5|★|4.0|
-||*Iron*|250|14|★★|6.0|
-||*Diamond*|1561|10|★★★|8.0|
-||*Netherite*|2031|15|★★★★|9.0|
-## Breakdown
-|Icon|Tool|Damage|Speed|DPS|
-|-|-|-|-|-|
-|![](src/main/resources/assets/jummy/textures/item/air_hoe.png)|Air Hoe|1.0|4.0|4.0|
-|![](src/main/resources/assets/jummy/textures/item/air_shovel.png)|Air Shovel|1.0|4.0|4.0|
-|![](src/main/resources/assets/jummy/textures/item/air_pickaxe.png)|Air Pickaxe|1.0|4.0|4.0|
-|![](src/main/resources/assets/jummy/textures/item/air_axe.png)|Air Axe|1.0|4.0|4.0|
-|![](src/main/resources/assets/jummy/textures/item/air_sword.png)|Air Sword|1.0|4.0|4.0|
-|![](src/main/resources/assets/jummy/textures/item/bedrock_hoe.png)|Bedrock Hoe|4.0|0.02|0.08|
-|![](src/main/resources/assets/jummy/textures/item/bedrock_shovel.png)|Bedrock Shovel|11.0|0.005|0.055|
-|![](src/main/resources/assets/jummy/textures/item/bedrock_pickaxe.png)|Bedrock Pickaxe|10.0|0.006|0.06|
-|![](src/main/resources/assets/jummy/textures/item/bedrock_axe.png)|Bedrock Axe|18.0|0.005|0.09|
-|![](src/main/resources/assets/jummy/textures/item/bedrock_sword.png)|Bedrock Sword|14.0|0.008|0.112|
-|![](src/main/resources/assets/jummy/textures/item/dirt_hoe.png)|Dirt Hoe|1.0|1.0|1.0|
-|![](src/main/resources/assets/jummy/textures/item/dirt_shovel.png)|Dirt Shovel|2.5|1.0|2.5|
-|![](src/main/resources/assets/jummy/textures/item/dirt_pickaxe.png)|Dirt Pickaxe|2.0|1.0|2.0|
-|![](src/main/resources/assets/jummy/textures/item/dirt_axe.png)|Dirt Axe|5.0|0.8|4.0|
-|![](src/main/resources/assets/jummy/textures/item/dirt_sword.png)|Dirt Sword|4.0|1.4|5.6|
-|![](src/main/resources/assets/jummy/textures/item/thick_wooden_hoe.png)|Thick Wooden Hoe|1.0|0.75|0.75|
-|![](src/main/resources/assets/jummy/textures/item/thick_wooden_shovel.png)|Thick Wooden Shovel|2.5|0.75|1.875|
-|![](src/main/resources/assets/jummy/textures/item/thick_wooden_pickaxe.png)|Thick Wooden Pickaxe|2.0|0.9|1.8|
-|![](src/main/resources/assets/jummy/textures/item/thick_wooden_axe.png)|Thick Wooden Axe|7.0|0.6|4.2|
-|![](src/main/resources/assets/jummy/textures/item/thick_wooden_sword.png)|Thick Wooden Sword|4.0|1.2|4.8|
-|![](src/main/resources/assets/jummy/textures/item/thick_golden_hoe.png)|Thick Golden Hoe|1.0|0.75|0.75|
-|![](src/main/resources/assets/jummy/textures/item/thick_golden_shovel.png)|Thick Golden Shovel|2.5|0.75|1.875|
-|![](src/main/resources/assets/jummy/textures/item/thick_golden_pickaxe.png)|Thick Golden Pickaxe|2.0|0.9|1.8|
-|![](src/main/resources/assets/jummy/textures/item/thick_golden_axe.png)|Thick Golden Axe|7.0|0.75|5.25|
-|![](src/main/resources/assets/jummy/textures/item/thick_golden_sword.png)|Thick Golden Sword|4.0|1.2|4.8|
-|![](src/main/resources/assets/jummy/textures/item/gravel_hoe.png)|Gravel Hoe|2.0|1.0|2.0|
-|![](src/main/resources/assets/jummy/textures/item/gravel_shovel.png)|Gravel Shovel|3.5|1.0|3.5|
-|![](src/main/resources/assets/jummy/textures/item/gravel_pickaxe.png)|Gravel Pickaxe|3.0|1.2|3.6|
-|![](src/main/resources/assets/jummy/textures/item/gravel_axe.png)|Gravel Axe|8.0|0.8|6.4|
-|![](src/main/resources/assets/jummy/textures/item/gravel_sword.png)|Gravel Sword|4.0|1.6|6.4|
-|![](src/main/resources/assets/jummy/textures/item/thick_iron_hoe.png)|Thick Iron Hoe|1.0|2.25|2.25|
-|![](src/main/resources/assets/jummy/textures/item/thick_iron_shovel.png)|Thick Iron Shovel|4.5|0.75|3.375|
-|![](src/main/resources/assets/jummy/textures/item/thick_iron_pickaxe.png)|Thick Iron Pickaxe|4.0|0.9|3.6|
-|![](src/main/resources/assets/jummy/textures/item/thick_iron_axe.png)|Thick Iron Axe|9.0|0.675|6.075|
-|![](src/main/resources/assets/jummy/textures/item/thick_iron_sword.png)|Thick Iron Sword|6.0|1.2|7.2|
-|![](src/main/resources/assets/jummy/textures/item/thick_diamond_hoe.png)|Thick Diamond Hoe|1.0|3.0|3.0|
-|![](src/main/resources/assets/jummy/textures/item/thick_diamond_shovel.png)|Thick Diamond Shovel|5.5|0.75|4.125|
-|![](src/main/resources/assets/jummy/textures/item/thick_diamond_pickaxe.png)|Thick Diamond Pickaxe|5.0|0.9|4.5|
-|![](src/main/resources/assets/jummy/textures/item/thick_diamond_axe.png)|Thick Diamond Axe|9.0|0.75|6.75|
-|![](src/main/resources/assets/jummy/textures/item/thick_diamond_sword.png)|Thick Diamond Sword|7.0|1.2|8.4|
-|![](src/main/resources/assets/jummy/textures/item/thick_netherite_hoe.png)|Thick Netherite Hoe|1.0|3.0|3.0|
-|![](src/main/resources/assets/jummy/textures/item/thick_netherite_shovel.png)|Thick Netherite Shovel|6.5|0.75|4.875|
-|![](src/main/resources/assets/jummy/textures/item/thick_netherite_pickaxe.png)|Thick Netherite Pickaxe|6.0|0.9|5.4|
-|![](src/main/resources/assets/jummy/textures/item/thick_netherite_axe.png)|Thick Netherite Axe|10.0|0.75|7.5|
-|![](src/main/resources/assets/jummy/textures/item/thick_netherite_sword.png)|Thick Netherite Sword|8.0|1.2|9.6|
-|![](src/main/resources/assets/jummy/textures/item/obsidian_hoe.png)|Obsidian Hoe|2.0|0.5|1.0|
-|![](src/main/resources/assets/jummy/textures/item/obsidian_shovel.png)|Obsidian Shovel|4.5|0.5|2.25|
-|![](src/main/resources/assets/jummy/textures/item/obsidian_pickaxe.png)|Obsidian Pickaxe|4.0|0.6|2.4|
-|![](src/main/resources/assets/jummy/textures/item/obsidian_axe.png)|Obsidian Axe|10.0|0.45|4.5|
-|![](src/main/resources/assets/jummy/textures/item/obsidian_sword.png)|Obsidian Sword|7.0|0.8|5.6|
-||*(empty hand)*|1.0|4.0|4.0|
-||*Wooden Hoe*|1.0|1.0|1.0|
-||*Wooden Shovel*|2.5|1.0|2.5|
-||*Wooden Pickaxe*|2.0|1.2|2.4|
-||*Wooden Axe*|7.0|0.8|5.6|
-||*Wooden Sword*|4.0|1.6|6.4|
-||*Golden Hoe*|1.0|1.0|1.0|
-||*Golden Shovel*|2.5|1.0|2.5|
-||*Golden Pickaxe*|2.0|1.2|2.4|
-||*Golden Axe*|7.0|1.0|7.0|
-||*Golden Sword*|4.0|1.6|6.4|
-||*Stone Hoe*|1.0|2.0|2.0|
-||*Stone Shovel*|3.5|1.0|3.5|
-||*Stone Pickaxe*|3.0|1.2|3.6|
-||*Stone Axe*|9.0|0.8|7.2|
-||*Stone Sword*|5.0|1.6|8.0|
-||*Iron Hoe*|1.0|3.0|3.0|
-||*Iron Shovel*|4.5|1.0|4.5|
-||*Iron Pickaxe*|4.0|1.2|4.8|
-||*Iron Axe*|9.0|0.9|8.1|
-||*Iron Sword*|6.0|1.6|9.6|
-||*Diamond Hoe*|1.0|4.0|4.0|
-||*Diamond Shovel*|5.5|1.0|5.5|
-||*Diamond Pickaxe*|5.0|1.2|6.0|
-||*Diamond Axe*|9.0|1.0|9.0|
-||*Diamond Sword*|7.0|1.6|11.2|
-||*Netherite Hoe*|1.0|4.0|4.0|
-||*Netherite Shovel*|6.5|1.0|6.5|
-||*Netherite Pickaxe*|6.0|1.2|7.2|
-||*Netherite Axe*|10.0|1.0|10.0|
-||*Netherite Sword*|8.0|1.6|12.8|
+|![](src/main/resources/assets/jummy/textures/item/air_pickaxe.png)|Air|6|1|★|1.0|
+|![](src/main/resources/assets/jummy/textures/item/dirt_pickaxe.png)|Dirt|25|32|★|1.4|
+||*Gold*|32|22|★|12.0|
+||*Wood*|59|15|★|2.0|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_pickaxe.png)|Log|236|8|★|1.5|
+|![](src/main/resources/assets/jummy/textures/item/thick_golden_pickaxe.png)|Gold Block|288|11|★|9.0|
+|![](src/main/resources/assets/jummy/textures/item/gravel_pickaxe.png)|Gravel|59|10|★★|3.0|
+||*Stone*|131|5|★★|4.0|
+|![](src/main/resources/assets/jummy/textures/item/copper_pickaxe.png)|Copper|200|9|★★|5.0|
+|![](src/main/resources/assets/jummy/textures/item/thick_copper_pickaxe.png)|Copper Block|1800|4|★★|3.75|
+|![](src/main/resources/assets/jummy/textures/item/obsidian_pickaxe.png)|Obsidian|3592|5|★★|6.0|
+||*Iron*|250|14|★★★|6.0|
+|![](src/main/resources/assets/jummy/textures/item/thick_iron_pickaxe.png)|Iron Block|2250|7|★★★|4.5|
+||*Diamond*|1561|10|★★★★|8.0|
+|![](src/main/resources/assets/jummy/textures/item/thick_diamond_pickaxe.png)|Diamond Block|14049|5|★★★★|6.0|
+||*Netherite*|2031|15|★★★★★|9.0|
+|![](src/main/resources/assets/jummy/textures/item/thick_netherite_pickaxe.png)|Netherite Block|18279|8|★★★★★|6.75|
+|![](src/main/resources/assets/jummy/textures/item/bedrock_pickaxe.png)|Bedrock|65535|1|★★★★★|1.0|
+## Swords
+|Icon|Tool|Damage|Speed|DPS|Durability|Enchantability|
+|-|-|-|-|-|-|-|
+||*(empty hand)*|1.0|4.0|4.0|-|-|
+|![](src/main/resources/assets/jummy/textures/item/air_sword.png)|Air Sword|1.0|4.0|4.0|6|1|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_sword.png)|Thick Wooden Sword|4.0|1.2|4.8|236|8|
+|![](src/main/resources/assets/jummy/textures/item/thick_golden_sword.png)|Thick Golden Sword|4.0|1.2|4.8|288|11|
+|![](src/main/resources/assets/jummy/textures/item/dirt_sword.png)|Dirt Sword|4.0|1.4|5.6|25|32|
+||*Golden Sword*|4.0|1.6|6.4|32|22|
+|![](src/main/resources/assets/jummy/textures/item/gravel_sword.png)|Gravel Sword|4.0|1.6|6.4|59|10|
+||*Wooden Sword*|4.0|1.6|6.4|59|15|
+|![](src/main/resources/assets/jummy/textures/item/thick_copper_sword.png)|Thick Copper Sword|5.0|1.2|6.0|1800|4|
+||*Stone Sword*|5.0|1.6|8.0|131|5|
+|![](src/main/resources/assets/jummy/textures/item/copper_sword.png)|Copper Sword|5.0|1.6|8.0|200|9|
+|![](src/main/resources/assets/jummy/textures/item/thick_iron_sword.png)|Thick Iron Sword|6.0|1.2|7.2|2250|7|
+||*Iron Sword*|6.0|1.6|9.6|250|14|
+|![](src/main/resources/assets/jummy/textures/item/obsidian_sword.png)|Obsidian Sword|7.0|0.8|5.6|3592|5|
+|![](src/main/resources/assets/jummy/textures/item/thick_diamond_sword.png)|Thick Diamond Sword|7.0|1.2|8.4|14049|5|
+||*Diamond Sword*|7.0|1.6|11.2|1561|10|
+|![](src/main/resources/assets/jummy/textures/item/thick_netherite_sword.png)|Thick Netherite Sword|8.0|1.2|9.6|18279|8|
+||*Netherite Sword*|8.0|1.6|12.8|2031|15|
+|![](src/main/resources/assets/jummy/textures/item/bedrock_sword.png)|Bedrock Sword|14.0|0.008|0.112|65535|1|
+
+## Axes
+|Icon|Tool|Damage|Speed|DPS|Durability|Enchantability|
+|-|-|-|-|-|-|-|
+||*(empty hand)*|1.0|4.0|4.0|-|-|
+|![](src/main/resources/assets/jummy/textures/item/air_axe.png)|Air Axe|1.0|4.0|4.0|6|1|
+|![](src/main/resources/assets/jummy/textures/item/dirt_axe.png)|Dirt Axe|5.0|0.8|4.0|25|32|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_axe.png)|Thick Wooden Axe|7.0|0.6|4.2|236|8|
+|![](src/main/resources/assets/jummy/textures/item/thick_golden_axe.png)|Thick Golden Axe|7.0|0.75|5.25|288|11|
+||*Wooden Axe*|7.0|0.8|5.6|59|15|
+||*Golden Axe*|7.0|1.0|7.0|32|22|
+|![](src/main/resources/assets/jummy/textures/item/gravel_axe.png)|Gravel Axe|8.0|0.8|6.4|59|10|
+|![](src/main/resources/assets/jummy/textures/item/thick_copper_axe.png)|Thick Copper Axe|9.0|0.63|5.73|1800|4|
+|![](src/main/resources/assets/jummy/textures/item/thick_iron_axe.png)|Thick Iron Axe|9.0|0.67|6.07|2250|7|
+|![](src/main/resources/assets/jummy/textures/item/thick_diamond_axe.png)|Thick Diamond Axe|9.0|0.75|6.75|14049|5|
+||*Stone Axe*|9.0|0.8|7.2|131|5|
+|![](src/main/resources/assets/jummy/textures/item/copper_axe.png)|Copper Axe|9.0|0.85|7.65|200|9|
+||*Iron Axe*|9.0|0.9|8.1|250|14|
+||*Diamond Axe*|9.0|1.0|9.0|1561|10|
+|![](src/main/resources/assets/jummy/textures/item/obsidian_axe.png)|Obsidian Axe|10.0|0.45|4.5|3592|5|
+|![](src/main/resources/assets/jummy/textures/item/thick_netherite_axe.png)|Thick Netherite Axe|10.0|0.75|7.5|18279|8|
+||*Netherite Axe*|10.0|1.0|10.0|2031|15|
+|![](src/main/resources/assets/jummy/textures/item/bedrock_axe.png)|Bedrock Axe|18.0|0.005|0.09|65535|1|
+
 # Blocks
-|Icon|Item|Tool|Hardness|Blast resistance|Drops|
-|-|-|-|-|-|-|
-|![](src/main/resources/assets/jummy/textures/item/7up_cap.png)|7UP® Cap|Any|0|0|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/milk_block.png)|Block of Milk|Any|1|1|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png)|Breakfast Block|Pickaxe|2|6|*Self*|
-|![](src/main/resources/assets/jummy/textures/item/coca_cola_cap.png)|Coca-Cola® Cap|Any|0|0|*Self*|
-|![](src/main/resources/assets/jummy/textures/item/dr_pepper_cap.png)|Dr. Pepper® Cap|Any|0|0|*Self*|
-|![](src/main/resources/assets/jummy/textures/item/funnel_cake.png)|Funnel Cake|Pickaxe|3|4.8|Cake + Hopper|
-|![](src/main/resources/assets/jummy/textures/item/green.png)|Green|Any|0|0|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png)|Half Powered Nether Reactor|Diamond Pickaxe|5|1200|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/nether_reactor.png)|Nether Reactor|Diamond Pickaxe|5|1200|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/powered_nether_reactor.png)|Powered Nether Reactor|Diamond Pickaxe|5|1200|*Random Nether items*
-|![](src/main/resources/assets/jummy/textures/block/coal_block_2.png)|(Block of)ⁿ Coal|Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/diamond_block_2.png)|(Block of)ⁿ Diamond|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/emerald_block_2.png)|(Block of)ⁿ Emerald|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/gold_block_2.png)|(Block of)ⁿ Gold|Iron Pickaxe|3n|6 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/iron_block_2.png)|(Block of)ⁿ Iron|Stone Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/lapis_block_2.png)|(Block of)ⁿ Lapis Lazuli|Stone Pickaxe|3n|3 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/netherite_block_2.png)|(Block of)ⁿ Netherite|Diamond Pickaxe|50n|1200 · 9ⁿ⁻¹|*Self*|
-|![](src/main/resources/assets/jummy/textures/block/redstone_block_2.png)|(Block of)ⁿ Redstone|Iron Pickaxe|5n|6 · 9ⁿ⁻¹|*Self*|
-# Recipes
+|Icon|Item|Tool|Tool tier|Hardness|Blast resistance|Drops|
+|-|-|-|-|-|-|-|
+|![](src/main/resources/assets/jummy/textures/item/7up_cap.png)|7UP® Cap|-|-|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/apple_block_side.png)|Apple Block|Axe|-|1|1|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/balls.png)|Balls|-|-|1.5|3|-|
+|![](src/main/resources/assets/jummy/textures/block/milk_block.png)|Block of Milk|-|-|1|1|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png)|Breakfast Block|Pickaxe|★|2|6|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/cheese_block.png)|Cheese Block|Shovel|-|1|1|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/coca_cola_cap.png)|Coca-Cola® Cap|-|-|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/dr_pepper_cap.png)|Dr. Pepper® Cap|-|-|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/golden_apple_block_side.png)|Enchanted Golden Apple Block|Axe|-|5|9|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/funnel_cake.png)|Funnel Cake|Pickaxe|★|3|4.8|Cake + Hopper|
+|![](src/main/resources/assets/jummy/textures/block/golden_apple_block_side.png)|Golden Apple Block|Axe|-|3|6|*Self*|
+|![](src/main/resources/assets/jummy/textures/item/green.png)|Green|-|-|0|0|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png)|Half Powered Nether Reactor|Pickaxe|★★★★|5|1200|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/nether_reactor.png)|Nether Reactor|Pickaxe|★★★★|5|1200|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/powered_nether_reactor.png)|Powered Nether Reactor|Pickaxe|★★★★|5|1200|*Random Nether items*|
+|![](src/main/resources/assets/jummy/textures/block/secret_cheese_block.png)|Secret Cheese Block|Shovel|-|1|1|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/stick_block.png)|Stick Block|Axe|-|1|1.5|3–4× Stick|
+|![](src/main/resources/assets/jummy/textures/block/coal_block_2.png)|(Block of)ⁿ Coal|Pickaxe|★|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/copper_block_2.png)|(Block of)ⁿ Copper|Pickaxe|★★|3n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/diamond_block_2.png)|(Block of)ⁿ Diamond|Pickaxe|★★★|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/emerald_block_2.png)|(Block of)ⁿ Emerald|Pickaxe|★★★|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/exposed_copper_2.png)|(Block of)ⁿ Exposed Copper|Pickaxe|★★|3n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/gold_block_2.png)|(Block of)ⁿ Gold|Pickaxe|★★★|3n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/iron_block_2.png)|(Block of)ⁿ Iron|Pickaxe|★★|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/lapis_block_2.png)|(Block of)ⁿ Lapis Lazuli|Pickaxe|★★|3n|3 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/netherite_block_2.png)|(Block of)ⁿ Netherite|Pickaxe|★★★★|50n|1200 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/oxidized_copper_2.png)|(Block of)ⁿ Oxidized Copper|Pickaxe|★★|3n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/redstone_block_2.png)|(Block of)ⁿ Redstone|Pickaxe|★★★|5n|6 · 9ⁿ⁻¹|*Self*|
+|![](src/main/resources/assets/jummy/textures/block/weathered_copper_2.png)|(Block of)ⁿ Weathered Copper|Pickaxe|★★|3n|6 · 9ⁿ⁻¹|*Self*|
+# Crafting
 ## Plastic
 4× Sugar Cane → 4× ![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic<br>
 `s` `s`<br>
@@ -213,26 +189,124 @@ Gold Ingot + Paper → ![](src/main/resources/assets/jummy/textures/item/one_dol
 ****G**** = Block of Gold<br>
 ****L**** = Glowstone Block<br>
 ****H**** = ![](src/main/resources/assets/jummy/textures/block/half_powered_nether_reactor.png) Half Powered Nether Reactor
-## (Block of)ⁿ Ore
+## Compressed ore blocks
 9× Block of Coal ⇄ ![](src/main/resources/assets/jummy/textures/block/coal_block_2.png) (Block of)² Coal
 
 \* *This pattern applies to all compressed ore blocks.  Following the same pattern, the Block² can be combined into Block³ and so on, up to an exponent of 5.*
-## Other
+## Mass storage
+9× Apple ⇄ ![](src/main/resources/assets/jummy/textures/block/apple_block_side.png) Apple Block
+
+9× ![](src/main/resources/assets/jummy/textures/item/milk.png) Milk ⇄ ![](src/main/resources/assets/jummy/textures/block/milk_block.png) Block of Milk
+
+4× ![](src/main/resources/assets/jummy/textures/item/breakfast.png) Breakfast ⇄ ![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png) Breakfast Block
+
+4× ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese ⇄ ![](src/main/resources/assets/jummy/textures/block/cheese_block.png) Cheese Block
+
+9× ![](src/main/resources/assets/jummy/textures/item/coal_nugget.png) Coal Nugget ⇄ Coal
+
+9× ![](src/main/resources/assets/jummy/textures/item/copper_nugget.png) Copper Nugget ⇄ Copper Ingot
+
+9× ![](src/main/resources/assets/jummy/textures/item/diamond_nugget.png) Diamond Nugget ⇄ Diamond
+
+9× ![](src/main/resources/assets/jummy/textures/item/emerald_nugget.png) Emerald Nugget ⇄ Emerald
+
+9× Enchanted Golden Apple ⇄ ![](src/main/resources/assets/jummy/textures/block/golden_apple_block_side.png) Enchanted Golden Apple Block
+
+9× Golden Apple ⇄ ![](src/main/resources/assets/jummy/textures/block/golden_apple_block_side.png) Golden Apple Block
+
 9× Green Dye ⇄ ![](src/main/resources/assets/jummy/textures/item/green.png) Green
+
+9× ![](src/main/resources/assets/jummy/textures/item/lapis_nugget.png) Lapis Lazuli Nugget ⇄ Lapis Lazuli
+
+9× ![](src/main/resources/assets/jummy/textures/item/netherite_nugget.png) Netherite Nugget ⇄ Netherite Ingot
+
+9× ![](src/main/resources/assets/jummy/textures/item/plastic_nugget.png) Plastic Nugget ⇄ ![](src/main/resources/assets/jummy/textures/item/plastic.png) Plastic
+
+9× ![](src/main/resources/assets/jummy/textures/item/wood_nugget.png) Wood Nugget ⇄ Stick
+
+4× Stick ⇄ ![](src/main/resources/assets/jummy/textures/block/stick_block.png) Stick Block
+
+9× ![](src/main/resources/assets/jummy/textures/item/sawdust.png) Sawdust ⇄ ![](src/main/resources/assets/jummy/textures/item/wood_nugget.png) Wood Nugget
+## Other shaped recipes
+8× ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese ⇄ 2× ![](src/main/resources/assets/jummy/textures/block/secret_cheese_block.png) Secret Cheese Block<br>
+`C` `C` `C`<br>
+`C` `.` `C`<br>
+`C` `C` `C`<br>
+
+8× ![](src/main/resources/assets/jummy/textures/block/cheese_block.png) Cheese Block → 8× ![](src/main/resources/assets/jummy/textures/block/secret_cheese_block.png) Secret Cheese Block<br>
+`C` `C` `C`<br>
+`C` `.` `C`<br>
+`C` `C` `C`<br>
+## Other shapeless recipes
+Blue Dye + ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese → ![](src/main/resources/assets/jummy/textures/item/blue_cheese.png) Blue Cheese
 
 Brick + Red Dye + Yellow Dye → ![](src/main/resources/assets/jummy/textures/item/breakfast.png) Breakfast
 
-4× ![](src/main/resources/assets/jummy/textures/item/breakfast.png) Breakfast ⇄ ![](src/main/resources/assets/jummy/textures/block/breakfast_block_side.png) Breakfast Block<br>
-`b` `b`<br>
-`b` `b`
+![](src/main/resources/assets/jummy/textures/item/milk.png) Milk → 4× ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese
+
+![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese + Stick → ![](src/main/resources/assets/jummy/textures/item/cheese_stick.png) Cheese Stick
 
 Cake + Hopper → ![](src/main/resources/assets/jummy/textures/item/funnel_cake.png) Funnel Cake
 
+Lava Bucket → Lava + Bucket
+
 Milk Bucket → ![](src/main/resources/assets/jummy/textures/item/milk.png) Milk + Bucket
 
-![](src/main/resources/assets/jummy/textures/item/milk.png) Milk → 4× ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese
+String + ![](src/main/resources/assets/jummy/textures/item/cheese.png) Cheese → ![](src/main/resources/assets/jummy/textures/item/string_cheese.png) String Cheese
 
-9× ![](src/main/resources/assets/jummy/textures/item/milk.png) Milk ⇄ ![](src/main/resources/assets/jummy/textures/block/milk_block.png) Block of Milk
+Water Bucket → Water + Bucket
+# Smelting
+## Recipes
+Water → Air
+
+![](src/main/resources/assets/jummy/textures/item/thick_copper_axe.png)![](src/main/resources/assets/jummy/textures/item/thick_copper_hoe.png)![](src/main/resources/assets/jummy/textures/item/thick_copper_pickaxe.png)![](src/main/resources/assets/jummy/textures/item/thick_copper_shovel.png)![](src/main/resources/assets/jummy/textures/item/thick_copper_sword.png) Thick Copper Tools → Copper Ingot
+
+![](src/main/resources/assets/jummy/textures/item/copper_axe.png)![](src/main/resources/assets/jummy/textures/item/copper_hoe.png)![](src/main/resources/assets/jummy/textures/item/copper_pickaxe.png)![](src/main/resources/assets/jummy/textures/item/copper_shovel.png)![](src/main/resources/assets/jummy/textures/item/copper_sword.png) Copper Tools → Copper Nugget
+
+![](src/main/resources/assets/jummy/textures/item/thick_golden_axe.png)![](src/main/resources/assets/jummy/textures/item/thick_golden_hoe.png)![](src/main/resources/assets/jummy/textures/item/thick_golden_pickaxe.png)![](src/main/resources/assets/jummy/textures/item/thick_golden_shovel.png)![](src/main/resources/assets/jummy/textures/item/thick_golden_sword.png) Thick Golden Tools → Gold Ingot
+
+![](src/main/resources/assets/jummy/textures/item/thick_iron_axe.png)![](src/main/resources/assets/jummy/textures/item/thick_iron_hoe.png)![](src/main/resources/assets/jummy/textures/item/thick_iron_pickaxe.png)![](src/main/resources/assets/jummy/textures/item/thick_iron_shovel.png)![](src/main/resources/assets/jummy/textures/item/thick_iron_sword.png) Thick Iron Tools → Iron Ingot
+
+Cooked Chicken → ![](src/main/resources/assets/jummy/textures/item/overcooked_chicken.png) Overcooked Chicken
+
+Raw Chicken → *(Blast Furnace)* → ![](src/main/resources/assets/jummy/textures/item/overcooked_chicken.png) Overcooked Chicken
+
+Baked Potato → ![](src/main/resources/assets/jummy/textures/item/overcooked_potato.png) Overcooked Potato
+
+Potato → *(Blast Furnace)* → ![](src/main/resources/assets/jummy/textures/item/overcooked_potato.png) Overcooked Potato
+
+Raw Beef → *(Blast Furnace)* → ![](src/main/resources/assets/jummy/textures/item/overcooked_beef.png) Overcooked Steak
+
+Steak → ![](src/main/resources/assets/jummy/textures/item/overcooked_beef.png) Overcooked Steak
+## Fuels
+|Icon|Item|Time (s)|
+|-|-|-|
+|![](src/main/resources/assets/jummy/textures/item/sawdust.png)|Sawdust|0.05 s|
+|![](src/main/resources/assets/jummy/textures/item/wood_nugget.png)|Wood Nugget|0.5 s|
+|![](src/main/resources/assets/jummy/textures/item/coal_nugget.png)|Coal Nugget|8 s|
+|![](src/main/resources/assets/jummy/textures/item/this_is_not_a_glitch.png)|This is not a glitch.|9.95 s|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_axe.png)|Thick Wooden Axe|20 s|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_hoe.png)|Thick Wooden Hoe|20 s|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_pickaxe.png)|Thick Wooden Pickaxe|20 s|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_shovel.png)|Thick Wooden Shovel|20 s|
+|![](src/main/resources/assets/jummy/textures/item/thick_wooden_sword.png)|Thick Wooden Sword|20 s|
+
+# Composting
+|Icon|Item|Fill chance|
+|-|-|-|
+|![](src/main/resources/assets/jummy/textures/item/leaf.png)|Leaf|7.5%|
+|![](src/main/resources/assets/jummy/textures/item/cheese.png)|Cheese|30%|
+|![](src/main/resources/assets/jummy/textures/item/marshmallow.png)|Marshmallow|30%|
+|![](src/main/resources/assets/jummy/textures/item/sweet_potato.png)|Sweet Potato|65%|
+|![](src/main/resources/assets/jummy/textures/item/wet_apple.png)|Wet Apple|65%|
+|![](src/main/resources/assets/jummy/textures/item/baked_sweet_potato.png)|Baked Sweet Potato|85%|
+|![](src/main/resources/assets/jummy/textures/item/lava_baked_potato.png)|Lava Baked Potato|85%|
+|![](src/main/resources/assets/jummy/textures/item/baked_sweet_potato.png)|Sweet Baked Potato|85%|
+|![](src/main/resources/assets/jummy/textures/item/overcooked_chicken.png)|Overcooked Chicken|85%|
+|![](src/main/resources/assets/jummy/textures/item/overcooked_potato.png)|Overcooked Potato|85%|
+|![](src/main/resources/assets/jummy/textures/item/overcooked_beef.png)|Overcooked Steak|85%|
+|![](src/main/resources/assets/jummy/textures/item/cheeseburger.png)|Cheeseburger|100%|
+|![](src/main/resources/assets/jummy/textures/item/hamburger.png)|Hamburger|100%|
 
 # Concepts
 ["7up cap" by butterbro](https://www.tynker.com/minecraft/items/view/slimeball/7up-cap/59bd6f8e5ae029356c8b4567)

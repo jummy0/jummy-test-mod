@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"jummy:diamond_block_2",
+		"jummy:diamond_block_3",
+		"jummy:diamond_block_4",
+		"jummy:diamond_block_5",
+		"jummy:gold_block_2",
+		"jummy:gold_block_3",
+		"jummy:gold_block_4",
+		"jummy:gold_block_5",
+		"jummy:redstone_block_2",
+		"jummy:redstone_block_3",
+		"jummy:redstone_block_4",
+		"jummy:redstone_block_5"
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"jummy:obsidian_pickaxe"
+		]
+	},
+	"criteria": {
+		"has_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "jummy:obsidian_tool_materials"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "jummy:obsidian_pickaxe"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_material",
+			"has_the_recipe"
+		]
+	]
+}
